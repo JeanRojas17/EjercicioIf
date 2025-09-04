@@ -4,8 +4,6 @@ salarioInicial = parseInt(prompt("Ingrese el salario del empleado: "));
 
 if (salarioInicial < 1300606) {
     aumento = salarioInicial * 0.15;
-} else {
-    aumento = aumento
 }
 
 salarioFinal = salarioInicial + aumento;
